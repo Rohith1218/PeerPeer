@@ -1,0 +1,51 @@
+.session-container, .calendar-container, .confirmation-container, .history-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .session-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .session-input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .session-button, .confirmation-button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .session-button:hover, .confirmation-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .calendar-list, .history-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .calendar-item, .history-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .calendar-item:hover, .history-item:hover {
+    background-color: #f1f1f1;
+  }
+  
